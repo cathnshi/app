@@ -18,10 +18,14 @@
   },
   "homepage": "https://github.com/cathnshi/app#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "gulp": "^3.9.1",
-    "gulp-sass": "^4.0.1"
+    "gulp-sass": "^4.0.1",
+    "handlebars": "^4.0.11",
+    "handlebars-loader": "^1.7.0",
+    "path": "^0.12.7",
+    "stylelint-config-standard": "^18.2.0"
   },
-  "dependencies": {
-    "handlebars": "^4.0.11"
-  }
+  "dependencies": {}
 }

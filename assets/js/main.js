@@ -645,7 +645,7 @@
             key: "loggedIn",
             value: function () {
                 if (console.log("logged in function"), !0 === JSON.parse(localStorage.getItem("loginStatus"))) {
-                    if ("Profile | Ururu | New Media Development | Artevelde University College Ghent" == document.title) {
+                    if ("Profile | ISSA | New Media Development | Artevelde University College Ghent" == document.title) {
                         var e = JSON.parse(localStorage.getItem("loggedInUser"));
                         this._welcomeUser.innerHTML = "Have a nice day " + e + "."
                     }
